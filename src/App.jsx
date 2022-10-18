@@ -2,11 +2,13 @@ import React from 'react';
 
 // Components
 import Header from './components/Header';
+import Meme from './components/Meme';
 
 const App = () => {
   return (
     <div className='container'>
       <Header />
+      <Meme />
     </div>
   );
 };
