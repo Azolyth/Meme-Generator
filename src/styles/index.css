@@ -16,7 +16,7 @@ body,
 
 .container {
   width: 775px;
-  height: 795px;
+  height: 900px;
   margin: 0 auto;
   background: #fff;
   box-shadow: 1px 1px 7px #eee;
@@ -30,6 +30,12 @@ body,
   padding: 0em 2.4em;
   align-items: center;
   justify-content: space-between;
+}
+
+.header-img {
+  width: 45px;
+  height: 45px;
+  margin-right: 0.775em;
 }
 
 main {
@@ -59,10 +65,11 @@ main {
   border-radius: 4px;
 }
 
-.header-img {
-  width: 45px;
-  height: 45px;
-  margin-right: 0.775em;
+.meme-img {
+  object-fit: cover;
+  margin-top: 2.9em;
+  width: 100%;
+  max-height: 525px;
 }
 
 .gradient {
